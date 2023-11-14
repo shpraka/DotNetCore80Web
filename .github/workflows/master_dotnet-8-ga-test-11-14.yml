@@ -60,7 +60,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'dotnet-8-ga-test-11-14'
+          app-name: 'dotnet80ga'
           slot-name: 'Production'
           package: .
           
